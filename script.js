@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let isValid = true;
     const messages = [];
 
+    feedbackDiv.style.display = "block";
     // Username Validation
 
     if(username.length < 3){
@@ -31,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function(){
       messages.push("Password should contain at least 8 characters");
     }
 
-    feedbackDiv.style.display = "block";
+  
     if(isValid){
       feedbackDiv.style.color = "#28a745";
       feedbackDiv.textContent = "Registration Successful";
