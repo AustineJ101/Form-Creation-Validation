@@ -40,4 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+const texts = ["This is the first","This is the Second", "This is the Third"];
+
+console.log(texts.join("<br>"));
+
 
